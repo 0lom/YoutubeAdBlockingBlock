@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "",
+    "description": "",
+    "version": "2.0",
+    "icons": {
+        "16": "",
+        "48": "",
+        "128": ""
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.youtube.com/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
